@@ -1,0 +1,6 @@
+# Alpine 3.23 ships Node.js 24 in its main repository, which eufy-security-ws 3.x requires.
+build_from:
+  aarch64: ghcr.io/home-assistant/aarch64-base:3.23
+  amd64: ghcr.io/home-assistant/amd64-base:3.23
+args:
+  EUFY_SECURITY_WS_VERSION: 3.1.0
